@@ -1,0 +1,73 @@
+html {
+  background: #fafafa;
+  font-size: 16px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+  margin: 100px auto 0 auto;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+*:focus {
+    outline: none;
+}
+
+div.nav {
+    background: #fdfdfd;
+    height: 60px;
+    width: 100;
+    position: relative;
+}
+
+div.container {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+input[type="email"]{
+    font-size: 14px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border: none;
+    width: calc(100% - 10px);
+    padding-left: 10px;
+    line-height: 40px;
+    border: 1px solid #1b76ff;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    font-size: 14px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid #1b76ff;
+    height: 40px;
+    border-radius: 4px;
+    background: #1b76ff;
+    color: white;
+    border: none;
+}
+
+.location {
+    font-size: 14px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: left;
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    border-color: #1b76ff;
+}
+
+p.subscribe-message {
+    font-size: 14px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 20px 0;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    width: 100%;
+}
